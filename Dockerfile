@@ -16,8 +16,8 @@ RUN <<-EOF
 	apt-get update
 	apt-get install -y --no-install-recommends \
 		file \
-		git \
-		install-php-extensions \
+		git
+	install-php-extensions \
 		@composer \
 		apcu \
 		intl \

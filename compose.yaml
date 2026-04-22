@@ -27,10 +27,10 @@ services:
         target: 443
         published: ${HTTPS_PORT:-443}
         protocol: tcp
-      - name: http3
-        target: 443
-        published: ${HTTP3_PORT:-443}
-        protocol: udp
+#      - name: http3
+#        target: 443
+#        published: ${HTTP3_PORT:-443}
+#        protocol: udp
 
     # Mercure is installed as a Caddy module, prevent the Flex recipe
     # from installing another service.
