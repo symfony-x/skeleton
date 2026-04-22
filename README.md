@@ -1,4 +1,3 @@
-````markdown
 # Symfony-X Skeleton
 
 Minimal Symfony-X project skeleton built on the `dunglas/symfony-docker` runtime baseline.
@@ -246,4 +245,3 @@ It is intentionally strict, minimal, and designed to evolve through installable 
 ## License
 
 MIT
-````
